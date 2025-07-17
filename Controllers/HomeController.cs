@@ -6,11 +6,14 @@ namespace FirstProject.Controllers;
 
 public class HomeController : Controller
 {
-    public ViewResult Index()
+    public IActionResult Index()
     {
-        int hours = DateTime.Now.Hour;
-        String viewModel = hours < 12 ? "Good Morning" : hours < 18 ? "Good Afternoon" : "Good Evening";
+        return View();
 
-        return View("MyView", viewModel);
+    }
+
+    public ViewResult RsvpForm()
+    {
+        return View();
     }
 }

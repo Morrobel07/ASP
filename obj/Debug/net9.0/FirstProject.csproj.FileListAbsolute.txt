@@ -95,3 +95,4 @@ C:\Users\Lenovo\Desktop\FirstProject\obj\Debug\net9.0\refint\FirstProject.dll
 C:\Users\Lenovo\Desktop\FirstProject\obj\Debug\net9.0\FirstProject.pdb
 C:\Users\Lenovo\Desktop\FirstProject\obj\Debug\net9.0\FirstProject.genruntimeconfig.cache
 C:\Users\Lenovo\Desktop\FirstProject\obj\Debug\net9.0\ref\FirstProject.dll
+C:\Users\Lenovo\Desktop\FirstProject\obj\Debug\net9.0\FirstProject.sourcelink.json

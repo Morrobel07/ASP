@@ -1,0 +1,27 @@
+@model FirstProject.Models.GuestResponse
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Thank You!</title>
+</head>
+
+<body>
+    <div>
+        <h1>Thank You, @Model.Name! </h1>
+        @if (Model?.WillAttend == true)
+        {
+            @:it is great that you are coming. the drinks are already in the fridge.
+
+        }
+        else
+        {
+            @:we are sorry that you can't make it. we will miss you.
+        }
+    </div>
+    Click <a asp-action="ListResponses">here</a> to see who is attending.
+</body>
+
+</html>
